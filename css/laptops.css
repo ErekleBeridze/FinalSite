@@ -1,0 +1,115 @@
+@media (max-width:1260px){
+
+    /* about page */
+    /* section2 */
+    .HS2{
+        padding-inline: 32px;
+    }
+    .AS2_cards_div{
+        display: none;
+    }
+    .AS2_div{
+        display: block;
+    }
+
+    .block{
+        display: block;
+    }
+
+}
+
+
+@media (max-width:1200px){
+
+    /* header */
+    header{
+        padding-inline: 32px;
+    }
+
+    /* contact page */
+    /* section1 */
+    .CS1{
+        padding-left: 32px;
+    }
+}
+
+@media (max-width:1030px){
+    
+    /* footer */
+    footer{
+        padding-inline: 32px;
+    }
+
+    /* about page */
+    /* section1 */
+    .HS1{
+        background-image: url(../img/cover1\ \(1\).png);
+    }
+
+    /* contact page */
+    /* section1 */
+    .CS1{
+        background-image: url(../img/cover1\ \(2\).png);
+    }
+}
+
+@media (max-width:1000px){
+
+    /* header */
+    header{
+        padding: 5px 24px;
+    }
+    .header_logo{
+        flex-direction: column;
+    }
+
+    .H_logo1{
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .H_logo2{
+        font-size: 32px;
+        line-height: 39px;
+    }
+    
+    /* index page */
+    /* section2 */
+    .HS2{ height: 588px;}
+    .HS2_img{
+        width: 180px;
+    }
+    .HS2_button{
+        font-size: 16px;
+        line-height: 24px;
+        width: 141px;
+    }
+
+    /* about page */
+    /* section2 */
+    .respo_img{
+        width: 304px;
+    }
+
+    /* contact page */
+    /* section1 */
+    .CS1{
+        padding-right: 222px;
+        padding-left: 24px;
+    }
+
+    /* section2 */
+    .contact_div{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .CS2_div{
+        flex-direction: row;
+        column-gap: 72px;
+    }
+    .contact_p{
+        display: none;
+    }
+    .map{
+        width: 696px;
+    }
+}

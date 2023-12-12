@@ -1,0 +1,198 @@
+@media (max-width:750px) {
+
+    /* header */
+    .fa-bars {
+        display: block;
+    }
+
+    .header_nav {
+        position: fixed;
+        background-color: #B53B1B;
+        top: 88px;
+        left: -100%;
+
+    }
+
+    .header_ul {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+        padding: 25px 81px;
+    }
+
+    .show {
+        left: 0;
+    }
+
+
+    /* index page */
+    /* section1 */
+    .HS1{
+        background-image: url(../img/Rectangle\ 106.png);
+    }
+
+    /* footer */
+    footer {
+        padding-inline: 24px;
+    }
+}
+
+@media (max-width:700px) {
+
+    /* about page */
+    /* section2 */
+    .AS2_art{
+        align-items: center;
+    }
+    .AS2_H{
+        font-size: 30px;
+        line-height: 24px;
+    }
+    .AS2_button{
+        font-size: 16px;
+        padding: 3px 5px;
+    }
+    .block_divs{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .respo_img{
+        width: 400px;
+    }
+
+    .list,.main_page{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    /* contact page */
+    /* section2 */
+    .CS2{
+        padding: 64px 0;
+    }
+    .CS2_H{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .map{
+        width: 432px;
+    }
+
+
+    /* footer */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 32px;
+    }
+
+    .footer_art {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .F_info_div {
+        flex-direction: row;
+        column-gap: 24px;
+    }
+
+    .F_p {
+        display: none;
+    }
+
+    
+}
+
+
+@media (max-width:600px) {
+
+    /* indexpage */
+    /* section1 */
+    .HS1 {
+        height: 304px;
+    }
+
+    .HS1_div {
+        row-gap: 32px;
+    }
+
+    .HS1_h {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* section2 */
+    .HS2_button {
+        padding: 5px 0;
+    }
+
+    /* section4 */
+    .HS4 {
+        height: 400px;
+    }
+
+    .HS4_h {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .form1_input {
+        padding-right: 98px;
+    }
+
+    .form1_button {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 16px 20px;
+    }
+
+
+    /* about page */
+    /* section1 */
+    .AS1 {
+        height: 500px;
+    }
+
+    .AS1_H {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .form2_input {
+        padding-right: 70px;
+    }
+
+    .form2_button {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 15px 20px;
+    }
+
+
+    /* contact page */
+    /* section1 */
+
+    .CS1{
+        display: flex;
+        align-items: center;
+    }
+    .CS1_art{
+        width: 432px;
+        padding-inline: 20px;
+    }
+    
+    .CS1_H{
+        font-size: 32px;
+    }
+
+    #NAME{
+        width: 160px;
+    }
+
+    #MESSAGE{
+        width: 392px;
+    }
+}
